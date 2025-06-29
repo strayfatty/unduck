@@ -5,7 +5,7 @@ import "./global.css";
 try {
   inject();
 } catch (error) {
-  console.warn("Analytics injection failed");
+  console.warn("Analytics injection failed", error);
 }
 
 function noSearchDefaultPageRender() {
